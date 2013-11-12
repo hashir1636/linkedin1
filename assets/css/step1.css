@@ -1,0 +1,236 @@
+body
+{
+	min-width: 960px;
+	background-color: #e6e6e6;
+}
+
+.header
+{
+	position: relative;
+	left:50px;
+	height: 29px;
+}
+
+a
+{
+	text-decoration: none;
+	color: #006699;
+}
+
+a:hover
+{
+	text-decoration: underline;
+}
+	
+	.header p
+	{
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 12px;
+		color: #666666;
+		float: right;
+		margin-right: 115px; 
+	}
+
+.main
+{
+	background-color: #fff;
+	height: 360px;
+	margin-top: 10px;
+	border: 1px solid #ccc;
+	width:796px !important;
+	padding: 20px;
+	margin-left: auto !important;
+	margin-right: auto !important;
+
+}
+
+	.main .sign_up_user
+	{
+		color: #3399cc;
+		font-weight: bold;
+		font-size: 18px;
+		font-family: Arial, Helvetica, sans-serif;
+		display: inline;
+		
+	}	
+
+	.main .sign_up_user_msg 
+	{
+			color: #3399cc;
+			font-family: Arial, Helvetica, sans-serif;
+			display: inline;
+			font-size: 15px;
+	}
+
+	.main .left_div
+	{
+		float: left;
+		height: 255px;
+	}
+
+		.main table
+		{
+			padding: 20px;
+		}
+
+
+
+		.main label
+		{
+			font-family: Arial, Helvetica, sans-serif;
+			font-weight: bold;
+			color: #333333;
+			font-size: 13px;
+		}
+
+		.left_div input,select
+		{
+			width:300px;
+		}
+
+		.left_div .radio_box
+		{
+			font-size: 12px;
+			width:15px;
+			font-family: Arial, Helvetica, sans-serif;
+		}
+
+		.check_box
+		{
+			font-size: 12px;
+			width:15px !important;
+			font-family: Arial, Helvetica, sans-serif;
+		}
+
+	.main p
+	{
+		font-size: 11px;
+		font-family: Arial, Helvetica, sans-serif;
+		color: #666666;
+	}
+
+	.main #join_linkedin_button
+	{
+		background-color: #1177a8;
+		border-radius: 2px;
+		color: white;
+		border:hidden;
+		height: 23px;
+		padding: 0 10px;
+		margin-top: 10px;
+		width: 125px;
+	}
+
+	.main #join_linkedin_button:hover
+	{
+		background-color: #1177c8;
+	}
+
+
+	.main .star
+	{
+		display: inline;
+	}
+
+	.main p.already
+	{
+		color: #333333;
+		font-size: 12px;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+
+	.main a.sign_in
+	{
+	
+		text-decoration: none;
+		color: #006699;
+		font-size: 12px;
+		font-family: Arial, Helvetica, sans-serif;
+
+	}
+
+	.main .line
+	{
+		position: relative;
+		top:20px;
+		height: 210px;
+		display: inline;
+		width: 1px !important;
+		background-color: #d7d7d7;
+	}
+
+	.main .right_div
+	{
+		border: 1px solid #baddee;
+		margin-top: 30px;
+		height: 100px;
+		float: left;
+		width: 275px !important;
+		
+	}
+
+		.right_div a img
+		{
+			margin-top: 15px;
+		}
+
+	.main .horizobtal_line
+	{
+		height: 1px;
+		background-color: #ccc;
+		width: 800px;
+		position: relative;
+		top:25px;
+	
+	}	
+	
+	#agree
+	{
+		margin-top: 10px;
+				
+	}
+
+		.policy a
+		{
+			text-decoration: none;
+			color: #007dc2;
+			font-size: 11px;
+			font-family: Arial, Helvetica, sans-serif; 
+		}
+
+		.main a:hover
+		{
+			text-decoration: underline;
+		}
+
+		.policies .user_agreement_link
+		{
+			position: relative;
+			left: 185px;
+			bottom:309px;
+			font-size: 12px;
+			text-decoration: none;
+			color:  #0077b5;
+
+		}
+
+		.footer
+		{
+			height: 50px;
+		}
+
+		.footer .corporation-logo
+		{
+			margin-top: 25px;
+			position: relative;
+			left: 50px;
+		}
+
+
+
+.border_color
+{
+	border:2px solid blue;		
+}
+
+

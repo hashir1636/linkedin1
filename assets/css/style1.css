@@ -1,0 +1,371 @@
+body
+{
+	min-width:960px;
+	background-color: #fff;
+}
+
+
+
+.main
+{
+	position: relative;
+	top: 49px;
+	height:605px;
+}
+
+
+
+	.incorrect_info, .user_already_exists
+	{
+		line-height: 40px;
+		height: 40px;
+		//width: 940px;
+		background-color: #ffeeee;
+		font-weight: bold;
+		display: block;
+		
+	}
+
+
+	.validation p
+	{
+		position: relative;
+		bottom: 50px;
+	}
+
+	
+
+	.empty_fname, .empty_lname, .empty_email, .empty_pwd, .invalid_email, .invalid_pwd
+	{
+		color: black;
+		font-size: 12px;
+		font-family:Arial, Helvetica, sans-serif;
+		font-style: italic;
+	}
+
+
+	.main .left_div
+	{
+		margin:0 0 0 25px;
+		//position: relative;
+		//top: 33px;
+		//height: 300px;
+	}
+
+
+	.main h1
+	{
+		font-family: arial;
+		color: #3399cc;
+		font-weight: bold;
+		font-size: 18px;
+	}
+
+	.grid_1 img
+	{
+		
+
+	}
+	.grid_5 p
+	{
+		color:#666666;
+		//line-height: 36px;
+		position: relative;
+		bottom: 5px;
+	}
+
+
+	.main .right_div
+	{
+		position: relative;
+		top: 20px;
+		float: right;
+		background-image: url(../img/sign-up-form.png);
+		height: 212px;
+		padding: 30px;
+		width: 260px !important;
+	}
+
+	.main .new_form
+	{
+		background-image: url(../img/new_sign_up_form.png);
+		height: 282px;
+	} 
+
+	.right_div label
+	{
+		font-weight: bold;
+		font-family:Arial, Helvetica, sans-serif;
+		font-size: 13px;
+		line-height: 30px;
+		float: right;
+	}
+
+	.right_div .hello
+	{
+		border-color: red;
+	}
+
+	.right_div form
+	{
+		margin-left: 3px;
+	}
+
+	.right_div .text_box
+	{
+		width: 175px;		
+	}
+
+	.right_div .text_box_border
+	{
+		//border-color: red;
+		border: 1px solid red;
+	}
+
+	.right_div p
+	{
+		font-size: 13px;
+	}
+
+	.right_div p a
+	{
+		text-decoration: none;
+		color: #0077b5;
+	}
+
+	.right_div p a:hover
+	{
+		text-decoration: underline;
+	}
+	
+	.right_div #join_now_button
+	{
+		background-color: #81b734;
+		border-radius: 2px;
+		color: white;
+		border:hidden;
+		height: 23px;
+		font-weight: bold;
+		padding: 0 10px;
+		margin-top: 20px;
+	}
+
+		#join_now_button:hover
+		{
+			background-color: #7ab12c;
+		}
+
+	.line
+	{
+		position: relative;
+		
+	}
+	
+	.line1
+	{
+		top: 60px;
+		left: 7px;
+
+	}
+
+	.line2
+	{
+		top:30px;
+		left: 7px;
+		margin-bottom: 25px;
+	}
+
+	.line3
+	{
+		top: 0px;
+		left:7px;
+	}
+
+	.search_box
+	{
+		height: 260px;
+		margin-top: 10px;
+	}
+
+	.search_box .search_form
+	{
+		
+		height: 50px;
+		position: relative;
+		top: 50px;
+		display: inline;
+	
+	}
+
+
+	.search_form h3
+	{
+		position: relative;
+		left: 175px;
+		
+		color: #666666;
+		font-family:Arial, Helvetica, sans-serif;
+	}
+
+	.search_form .search_name
+	{
+		position: relative;
+		bottom: 42px;
+		left: 460px;
+		color: #a9a9a9;
+		display: inline;
+	}
+
+	.search_button
+	{
+		position: relative;
+		bottom: 42px;
+		left: 460px;
+		border-radius: 2px;
+		border-color: #cacaca;
+	}
+
+	.member_directory
+	{
+		position: relative;
+		top: 75px;
+		left:325px;
+		color: #656565;
+		font-size: 12px;
+	}
+
+	.alphabetical_list 
+	{
+		position: relative;
+		top:47px;
+		left:465px;
+		font-size: 12px;
+		text-decoration: none;
+		color: #0077b5;
+	}
+
+	.alphabetical_list:hover
+	{
+		text-decoration: underline;
+	}
+
+	.browse_members
+	{
+		position: relative;
+		top: 40px;
+		color: #656565;
+		font-size: 12px;
+
+	}
+	.country_list
+	{
+		position: relative;
+		top:12px;
+		left:525px;
+		font-size: 12px;
+		text-decoration: none;
+		color:  #0077b5;
+	}
+	.country_list:hover
+	{
+		text-decoration: underline;
+	}
+
+	.user_agreement_link
+	{
+		position: relative;
+		top: 10px;
+		left: 7px;
+		color: #656565;
+		font-size: 12px;
+	}
+
+	.policy
+	{
+		font-size: 12px;
+		text-decoration: none;
+		color:  #0077b5;
+		position: relative;
+	}
+
+	.policy:hover
+	{
+		text-decoration: underline;
+	}
+	.agreement_policy 
+	{
+		bottom:17px;
+		left:228px;
+	}
+
+	.cooma
+	{
+		position: relative;
+		bottom: 18px;
+		left: 308px;
+		color: #656565;
+		font-size: 12px;
+	}
+
+	.privacy_policy
+	{
+		bottom: 46px;
+		left: 315px;
+	}
+
+	.and
+	{
+		position: relative;
+		bottom:74px;
+		left: 390px;
+		color: #656565;
+		font-size: 12px;
+	}
+
+	.cookie_policy
+	{
+		bottom:102px;
+		left:412px;
+	}
+
+
+.footer
+	{
+		position:relative;
+		top: 90px;
+		left: 7px;
+		color:  #0077b5;
+		height: 60px;
+		line-height: 20px;
+		margin-top: 10px;
+
+	}
+
+	.footer a
+	{
+		text-decoration: none;
+		color:  #0077b5;
+		font-size: 13px;
+		font-family: Arial, Helvetica, sans-serif;
+		margin-left: 4px;
+		margin-right: 4px;
+		
+	}
+
+	.footer a:hover
+	{
+		text-decoration: underline;
+	}
+
+	.footer_logo
+	{
+		position: relative;
+		right: 15px;
+		display: inline;
+	}
+
+	.last_links 
+	{
+		position: relative;
+		right: 15px;
+	}

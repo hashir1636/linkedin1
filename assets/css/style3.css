@@ -1,0 +1,148 @@
+body
+{
+	min-width: 960px;
+	background-image: url(../images/body-bg1.png);
+	background-repeat: repeat;
+}
+
+.main
+{
+	background-color: #fff;
+	height: 600px;
+	margin-top: 75px;
+
+}
+
+.main .main_heading
+{
+
+	clear: both;
+	font-family: Arial, Helvetica, sans-serif;
+	margin:25px 90px 0 90px;
+	font-size: 15px;
+}
+
+.main_heading #million_strong
+{
+	position: relative;
+	bottom: 20px;
+}
+
+	.main .advantages
+	{
+		margin: 0 40px;
+		height: 350px;
+	}
+
+		.advantages .grid_3
+		{
+			margin:0 30px;
+		}
+
+		.advantages h3
+		{
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 18px;
+		}
+
+		.advantages img
+		{
+			margin-top: 25px;
+		}
+
+		.advantages .line
+		{
+			position: relative;
+			top:20px;
+			height: 350px;
+			display: inline;
+			width: 1px !important;
+			background-color: #d7d7d7;
+
+		}
+
+		.advantages p
+		{
+			color: #333333;
+			font-size: 12px;
+			font-family: Arial, Helvetica, sans-serif;
+			margin-top: 35px;
+		}
+
+		p.learn
+		{
+			position: relative;
+			bottom: 10px;
+		}
+
+	.main .join_now
+	{
+		clear: both;
+		margin: 0 400px;
+		margin-top: 35px;
+	}
+
+	.join_now p
+	{
+		font-family:  Arial, Helvetica, sans-serif;
+		font-weight: bold;
+	}
+
+	.join_now #join_now_button
+	{
+		background-color: #f7da11;
+		border-radius: 2px;
+		height: 35px;
+		border-style:solid;
+		width: 100px;
+		border-color: orange;
+		position: relative;
+		top: 7px;
+		font-weight: bolder;
+		color: #333333;
+	}
+
+	#join_now_button:hover
+	{
+		background-color: #f9c90d;
+	}
+
+	.footer
+	{
+		position:relative;
+		top: 50px;
+		left: 7px;
+		color:  #0077b5;
+		height: 60px;
+		line-height: 20px;
+	}
+
+	.footer a
+	{
+		text-decoration: none;
+		color:  #0077b5;
+		font-size: 13px;
+		font-family: Arial, Helvetica, sans-serif;
+		margin-left: 4px;
+		margin-right: 4px;
+		
+	}
+
+	.footer a:hover
+	{
+		text-decoration: underline;
+	}
+
+	.footer_logo
+	{
+		position: relative;
+		top: 3px;
+		right: 13px;
+		display: inline;
+	}
+
+	.last_links 
+	{
+		position: relative;
+		right: 19px;
+	}

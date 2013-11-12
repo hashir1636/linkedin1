@@ -1,0 +1,47 @@
+.main
+{
+	border: 1px solid #ccc;
+}
+
+.main_logo
+{
+	background-image: url(../images/user-agreement.png);
+	height: 556px;
+}
+
+	.left_div
+	{
+		height: 400px;
+		//margin-top: 200px;
+		margin-left: 50px !important;
+		position: relative;
+		bottom: 350px;
+	}
+
+		.left_div p
+		{
+			font-weight: bold;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 14px;
+		}
+
+	.right_div
+	{
+		height:400px;
+		float:right;
+		position: relative;
+		bottom: 500px;
+
+
+	}
+
+a
+{
+	text-decoration: none;
+}
+
+a:hover
+{
+	text-decoration: underline;
+}
+
